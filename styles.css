@@ -137,7 +137,7 @@ a{ color: inherit; }
 .hero__bg{
   position:absolute;
   inset:0;
-  background-image: url("assets/hero.jpg");
+  background-image: url("./hero.jpg");
   background-size: cover;
   background-position: center;
   filter: saturate(1.05) contrast(1.02);
@@ -505,3 +505,4 @@ h1{
   .hero{ min-height: 78vh; }
   .brand__logo{ width: 46px; height: 46px; }
 }
+
