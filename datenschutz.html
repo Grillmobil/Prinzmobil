@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>Datenschutzerklärung – Grillmobil Prinz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html">
+        <span class="brand__name">Grillmobil Prinz</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="section section--alt">
+    <div class="container">
+      <h1>Datenschutzerklärung</h1>
+
+      <h2>1. Verantwortlicher</h2>
+      <p>
+        Verantwortlich für die Datenverarbeitung auf dieser Website ist:<br>
+        <strong>Grillmobil Prinz</strong><br>
+        Manfred Prinz<br>
+        Wangener Straße 78<br>
+        88299 Leutkirch im Allgäu<br>
+        Telefon: 01520 3529430<br>
+        E-Mail: <a href="mailto:Manfred-Prinz-Kantine@web.de">Manfred-Prinz-Kantine@web.de</a>
+      </p>
+
+      <h2>2. Allgemeine Hinweise</h2>
+      <p>
+        Der Schutz Ihrer persönlichen Daten ist uns wichtig. Personenbezogene Daten werden auf dieser Website nur im
+        notwendigen Umfang verarbeitet. Diese Website verwendet kein Tracking und keine Analyse-Tools (z. B. kein Google Analytics).
+      </p>
+
+      <h2>3. Hosting / Bereitstellung der Website</h2>
+      <p>
+        Beim Aufruf unserer Website werden durch den von Ihnen verwendeten Browser automatisch Informationen an den Server
+        der Website gesendet. Diese Informationen werden temporär in einem sogenannten Logfile gespeichert. Folgende Informationen
+        können dabei erfasst werden: IP-Adresse, Datum und Uhrzeit des Zugriffs, aufgerufene Seite/Datei, Referrer-URL,
+        Browsertyp/-version und Betriebssystem.
+      </p>
+      <p>
+        Die Verarbeitung erfolgt zur Gewährleistung eines reibungslosen Verbindungsaufbaus, zur Systemsicherheit und -stabilität
+        sowie zu administrativen Zwecken. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse).
+      </p>
+
+      <h2>4. Kontaktaufnahme per E-Mail</h2>
+      <p>
+        Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben (z. B. Name, E-Mail-Adresse und Inhalt der Nachricht)
+        zur Bearbeitung der Anfrage verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen)
+        bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Bearbeitung).
+      </p>
+
+      <h2>5. Kontaktformular</h2>
+      <p>
+        Wenn Sie das Kontaktformular nutzen, öffnet sich Ihr E-Mail-Programm (sog. „mailto“-Funktion). Die in das Formular
+        eingegebenen Daten werden nicht automatisch auf dieser Website gespeichert oder an einen Server übertragen, sondern
+        als E-Mail-Entwurf in Ihrem E-Mail-Programm vorbereitet. Die tatsächliche Übermittlung erfolgt erst, wenn Sie die E-Mail
+        in Ihrem E-Mail-Programm absenden.
+      </p>
+      <p>
+        Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Anbahnung/Erfüllung von Verträgen) bzw. Art. 6 Abs. 1 lit. f DSGVO.
+      </p>
+
+      <h2>6. WhatsApp</h2>
+      <p>
+        Auf dieser Website ist ein Link zu WhatsApp integriert. Wenn Sie diesen Link anklicken, werden Sie zu WhatsApp
+        (WhatsApp Ireland Limited) weitergeleitet. Dabei können personenbezogene Daten (z. B. Ihre IP-Adresse) an WhatsApp
+        übertragen werden. Die Datenverarbeitung erfolgt durch WhatsApp gemäß deren Datenschutzbestimmungen.
+      </p>
+      <p>
+        Rechtsgrundlage für die Nutzung des Links ist Art. 6 Abs. 1 lit. b DSGVO (Kontaktaufnahme/Anbahnung) sowie
+        Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer einfachen Kontaktmöglichkeit).
+      </p>
+
+      <h2>7. Ihre Rechte</h2>
+      <p>
+        Sie haben das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO),
+        Einschränkung der Verarbeitung (Art. 18 DSGVO), Datenübertragbarkeit (Art. 20 DSGVO) sowie Widerspruch (Art. 21 DSGVO),
+        soweit die jeweiligen gesetzlichen Voraussetzungen vorliegen.
+      </p>
+
+      <h2>8. Beschwerderecht</h2>
+      <p>
+        Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO).
+      </p>
+
+      <h2>9. Stand</h2>
+      <p>Stand: <span id="dsDate"></span></p>
+
+      <p>
+        <a class="btn btn--ghost" href="index.html">Zurück zur Startseite</a>
+      </p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> Grillmobil Prinz</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("dsDate").textContent = new Date().toLocaleDateString("de-DE");
+  </script>
+</body>
+</html>
